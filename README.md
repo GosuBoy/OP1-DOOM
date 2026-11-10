@@ -17,7 +17,7 @@ No firmware, game WAD, OTP/keys, toolchain, screenshot or game artwork is distri
 - `provenance/imports.json`: exact source identities, hashes and withheld-file inventory.
 - [Build status](docs/BUILD.md), [licensing](docs/LICENSING.md), [controls](docs/CONTROLS.md), [hardware risks](docs/HARDWARE.md), and [validation](docs/VALIDATION.md).
 
-In the historical build, native g_game.c, m_menu.c, wi_stuff.c, i_system.c, i_input.c and i_video.c override the engine/platform counterparts. This layout preserves those distinct files; it does not supply an automatic link recipe.
+In the historical build, native g_game.c, m_menu.c, wi_stuff.c, i_system.c, i_input.c and i_video.c override the engine/platform counterparts. The inherited renderer recipe also combines a renamed reference r_draw object with the optimized column_cached implementation, letting the final link discard the old column function. This layout preserves the distinct source files; it does not supply an automatic link recipe.
 
 ## Check the source
 
@@ -28,7 +28,7 @@ python3 tools/check_sources.py
 python3 tools/check_frame_queue.py
 ```
 
-These run offline and do not install dependencies or access hardware. The host regression checks queue ownership/refusal behavior with UBSan. A full engine build, simulator run and new hardware test are not claimed.
+These run offline and do not install dependencies or access hardware. The host regression checks queue ownership/refusal behavior with UBSan. A private native rebuild now matches V74's loaded bytes exactly; see [recovery findings](docs/RECOVERY-PROGRESS.md). The public snapshot remains incomplete, and no full-Doom simulator run, firmware-package build or hardware test is claimed.
 
 ## Hardware warning
 

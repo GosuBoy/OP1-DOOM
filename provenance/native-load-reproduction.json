@@ -1,0 +1,24 @@
+{
+  "independent_loader_record_comparison": "PASS",
+  "baseline_package_sha256": "d242c706a2813de3fbb5a26fe1ed6bcf546bf1eba903f9f759f39510597cc941",
+  "new_loader_COPY_records": 21,
+  "intervals": [
+    {
+      "address": "0xa00000",
+      "bytes": 4196020,
+      "sha256": "1d7d43be501e67d927e415e0b8f3e29c3bf33075e859721816f652a526cac771",
+      "exact_native_elf_match": true
+    },
+    {
+      "address": "0xeff000",
+      "bytes": 954480,
+      "sha256": "314c9175fb9b8d4d30d7209c2571b72f93d8d0282bbc97a2be4a7399416fe306",
+      "exact_native_elf_match": true
+    }
+  ],
+  "zero_fill_included": true,
+  "native_elf_sha256": "84ccb5418e02551b6b5f1a1d9bd2f5a34cc45b0ba8bffcc80afb4bcb99d2ff02",
+  "firmware_package_built": false,
+  "target_executed": false,
+  "hardware_test": false
+}

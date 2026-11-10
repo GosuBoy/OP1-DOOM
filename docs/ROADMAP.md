@@ -3,8 +3,8 @@
 This source-only research release is ready for inspection. A usable firmware builder remains blocked by:
 
 1. License decisions for the withheld port-specific files and provenance review of bootstrap/container code.
-2. Recovery of the remaining historical inputs through a working authorized transfer route. The binutils publisher checksum and bootstrap reproduction are now verified; full C compiler/simulator recovery is separate.
-3. Reconstruction of the exact V74 object/override recipe and a verified derivation from user-supplied firmware/WAD inputs.
+2. Recovery of remaining historical archive evidence and simulator qualification. A locally built C compiler/backend, binutils, native load and bootstrap are now verified; the original V72/V73 archives are still unavailable. The simulator builds but a bounded CALL fixture fails, so target validation remains blocked.
+3. A verified stock-firmware-to-update derivation using user-supplied firmware/WAD inputs. Native object/override reconstruction is now verified against the original V74 loaded bytes.
 4. Applicable rights and GPL compliance for any combined executable distribution.
 5. Review of unresolved USB/power behavior and exact-candidate hardware/recovery testing under separate installation authorization.
 
