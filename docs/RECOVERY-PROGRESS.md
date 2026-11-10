@@ -53,10 +53,19 @@ An independent comparison also concatenated the original loader's 21 new COPY re
 
 The [comparison receipt](../provenance/native-load-reproduction.json) records the exact identities. Whole-ELF identity with the historical ELF is not claimed; source-path/symbol metadata is separate from loaded bytes.
 
-This closes native-load and bootstrap reproduction within the private source/input scope. V72/V73 archives are still unavailable as historical evidence, but were not needed for this independent native-load rebuild. Public source completeness still requires the withheld-file license decision. A stock-firmware-to-update builder, container provenance/rights review, simulator qualification and physical safety remain separate work. No new .op1 package was built and the rebuilt native image was not executed.
+This closes native-load and bootstrap reproduction within the private source/input scope. V72/V73 archives are still unavailable as historical evidence, but were not needed for this independent native-load rebuild. Public source completeness still requires the withheld-file license decision. A stock-firmware-to-update builder, container provenance/rights review, full-program simulator qualification and physical safety remain separate work. No new .op1 package was built and the rebuilt native image was not executed.
 
-## Simulator build is not a validation pass
+## CALL failure diagnosed; pinned simulator recovered
 
-The historical GDB 13.2 source archive was recovered and SHA256 verified. Its Blackfin simulator built locally from unpatched source using existing system zlib, without installation.
+The newly built, unpatched GDB 13.2 simulator remains rejected: its CALL fixture loops at the call instruction. Diagnostic logging showed a zero decoded displacement. Its sign-extension macro shifts a 32-bit value using the host's 64-bit long width, causing undefined behavior for the 24-bit displacement.
 
-A minimal assembler fixture containing OUTC and HLT prints the expected byte and exits successfully. A separate fixture containing a CALL prints its initial marker but does not reach the callee/return markers before the cycle watchdog stops it. The retained pure target timing regression also fails to produce its success marker under the bounded configurations tried; the default run times out. The configuration/host-simulator cause remains unresolved. The build is therefore **not accepted for target validation**, and no full Doom, vendor firmware, peripheral timing or hardware result is inferred. Only small pure fixture programs were run.
+The existing project toolchain was subsequently located with its manifest, source archives, patches and relocation API. This is **patched GDB 16.3**, not the unpatched 13.2 build. Its recorded sign-extension patch uses target width 32. Three additional recorded patches fix scalar, halfword and packed writeback evaluation order. The retained GCC locale-header patch also explains the auxiliary gcov build failure encountered in the fresh build. All 12 tool binaries and five patch hashes matched their retained manifest; the full API integrity check verified 44 files. No original toolchain file was changed and nothing was installed.
+
+Using those existing pinned tools, with all output confined to the recovery workspace:
+
+- OUTC/HLT, CALL, CALL with LINK/UNLINK, and the retained pure timing regression all pass.
+- Sixteen retained scalar, halfword, packed, arithmetic and control-flow fixtures pass on both normal and trace simulators: 32 checks. Two boot-related fixtures were excluded from this bounded source-release check.
+- Fresh C probes at O0 and O2 pass on both simulator variants: four checks. Compiler-driver linking also passes.
+- Trace output is produced, and the deliberate integrity-check mismatch is rejected.
+
+The [toolchain receipt](../provenance/recovered-existing-toolchain.json) records hashes and bounded results. This resolves the CALL failure and qualifies this selected toolchain for these pure checks. It does not establish full Doom execution, peripheral timing, firmware behavior or physical safety. No vendor firmware or WAD was executed, no device was accessed, and no tool binaries or patches are distributed in this repository.

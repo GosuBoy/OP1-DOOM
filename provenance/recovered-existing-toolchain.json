@@ -1,0 +1,335 @@
+{
+  "source": "Existing pinned project toolchain; no source or binary changed",
+  "tools_verified": [
+    {
+      "tool": "gcc",
+      "bytes": 1702152,
+      "sha256": "bc1825c4d194022a31ecdb4b8545e4b8805160aad7ca8fb6cfe6e20620a4b866",
+      "verified": true
+    },
+    {
+      "tool": "cc1",
+      "bytes": 23135392,
+      "sha256": "aeea958b9fa83f483b7c15a5c2d23c91bd5a8cc8c53a6b569597f0ed84bc5b03",
+      "verified": true
+    },
+    {
+      "tool": "as",
+      "bytes": 1327832,
+      "sha256": "c9265d32722ce95a429df8fe7757098a1d396eadc1f36d7eaee615a763baf3b8",
+      "verified": true
+    },
+    {
+      "tool": "ld",
+      "bytes": 1991352,
+      "sha256": "46decb3d65de2394ebb11812db5401f1f13124906905c8ea9afd44247b668634",
+      "verified": true
+    },
+    {
+      "tool": "objdump",
+      "bytes": 1561832,
+      "sha256": "15c6d13b1d8e089fff24a93525fedd593b42b6eb7efc7f7d0da27cf7e5f78ed6",
+      "verified": true
+    },
+    {
+      "tool": "objcopy",
+      "bytes": 1036328,
+      "sha256": "18c0a2fdf938b076d5ec2ac0efbf45ecc31084ab5adbbb28eccf6128402dbb5b",
+      "verified": true
+    },
+    {
+      "tool": "nm",
+      "bytes": 914216,
+      "sha256": "2286154288f0e4c2c5357a4b636b8e77950a18989931aca3acccd8b05be71718",
+      "verified": true
+    },
+    {
+      "tool": "readelf",
+      "bytes": 1012792,
+      "sha256": "1239f13a97d0c5e384f85cb846108cf86bb1100d38848a37b398d90caab3c511",
+      "verified": true
+    },
+    {
+      "tool": "sim-normal",
+      "bytes": 1537712,
+      "sha256": "ec0a8c2a4db69ded3425e9995c10dce9e36701caf24d6a93b49a081bf409943a",
+      "verified": true
+    },
+    {
+      "tool": "sim-trace",
+      "bytes": 1537664,
+      "sha256": "13481d2c2bc73ad96d171a24e535891d11de85bca4d0a9364042a3a823a3c53e",
+      "verified": true
+    },
+    {
+      "tool": "bfin-as",
+      "bytes": 1327832,
+      "sha256": "c9265d32722ce95a429df8fe7757098a1d396eadc1f36d7eaee615a763baf3b8",
+      "verified": true
+    },
+    {
+      "tool": "bfin-ld",
+      "bytes": 1991352,
+      "sha256": "46decb3d65de2394ebb11812db5401f1f13124906905c8ea9afd44247b668634",
+      "verified": true
+    }
+  ],
+  "patches_verified": [
+    {
+      "path": "toolchain/sources/patches/gcc-13.2.0-libcxx-locale.patch",
+      "sha256": "0fba7967f50358c01191e3246c33875a692ddf2b8d6415708f0c00fb1a495352",
+      "bytes": 270
+    },
+    {
+      "path": "toolchain/sources/patches/01-signextend.patch",
+      "sha256": "e65f7b953bd352aa695bed8ed636f9f5d718eae24eba791935bba35007ed1070",
+      "bytes": 351
+    },
+    {
+      "path": "toolchain/sources/patches/02-scalar-writeback.patch",
+      "sha256": "2ef0e76e43fd7043643cace675f5b7dded4a922884dfa7cd2cf23c87208c7849",
+      "bytes": 733
+    },
+    {
+      "path": "toolchain/sources/patches/03-halfword-writeback.patch",
+      "sha256": "b6d776cc0ec0da56d1699649d14ac4ec8a936cf5529f98625b7c273ef7d0fa65",
+      "bytes": 396
+    },
+    {
+      "path": "toolchain/sources/patches/04-packed-writeback.patch",
+      "sha256": "1b5f2ee37891e365ccb185b3933117710f2c68beb78b375775501e19fce53e76",
+      "bytes": 383
+    }
+  ],
+  "simulator_version": "GNU simulator (SIM) 16.3",
+  "pure_fixture_results": [
+    {
+      "fixture": "smoke",
+      "exit": 0,
+      "stdout_hex": "5a",
+      "stderr": "",
+      "pass": true
+    },
+    {
+      "fixture": "call",
+      "exit": 0,
+      "stdout_hex": "414243",
+      "stderr": "",
+      "pass": true
+    },
+    {
+      "fixture": "call-link",
+      "exit": 0,
+      "stdout_hex": "414243",
+      "stderr": "",
+      "pass": true
+    },
+    {
+      "fixture": "timing-test",
+      "exit": 0,
+      "stdout_hex": "384f5250",
+      "stderr": "",
+      "pass": true
+    }
+  ],
+  "all_pure_fixtures_pass": true,
+  "full_Doom_run": false,
+  "device_access": false,
+  "firmware_loaded": false,
+  "bounded_regression": {
+    "verifiedFiles": 44,
+    "cases": [
+      {
+        "name": "scalar",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "scalar",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "halfword",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "halfword",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "packed",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "packed",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_dsp32alu_rpm",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_dsp32alu_rpm",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_dsp32alu_rrpm",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_dsp32alu_rrpm",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ld_ld",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ld_ld",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ldst_1",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ldst_1",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ldst_2",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_multi_issue_dsp_ldst_2",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-add",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-add",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-add_imm7",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-add_imm7",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_calla_subr",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_calla_subr",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ccflag_dr_dr_uu",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ccflag_dr_dr_uu",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ldstii_ld_preg",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ldstii_ld_preg",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_linkage",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_linkage",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ujump",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-c_ujump",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "name": "upstream-probe",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "name": "upstream-probe",
+        "mode": "trace",
+        "passed": true
+      }
+    ],
+    "probes": [
+      {
+        "optimization": "O0",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "mode": "trace",
+        "passed": true
+      },
+      {
+        "optimization": "O2",
+        "mode": "normal",
+        "passed": true
+      },
+      {
+        "optimization": "O2",
+        "mode": "trace",
+        "passed": true
+      }
+    ],
+    "excludedFixtures": [
+      "boot-decrypt",
+      "boot-split"
+    ],
+    "passed": true,
+    "driverLinkPassed": true,
+    "traceBytes": 8671,
+    "tamperRejected": true
+  },
+  "root_cause": "Upstream SIGNEXTEND shifts a 32-bit value using host long width; on this 64-bit host CALL displacement becomes zero. Existing recorded sign-extension patch uses target width 32."
+}
