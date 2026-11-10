@@ -6,14 +6,14 @@ This first public release is an **audited source research snapshot**, based on t
 
 ## Release scope
 
-The repository contains the Doom engine changes and the native runtime files whose GPL notices or upstream license provenance have been verified. It does **not** contain a complete firmware build kit, a flashable download, or installation instructions. Some port-specific files are withheld until their license declarations are resolved; bootstrap and firmware-container tooling are also withheld. This is a partial source release, not a claim that all V74 build inputs are publicly available.
+The repository contains the Doom engine changes and retained native runtime source, with existing notices and the approved [project-original runtime license scope](LICENSE-SCOPE.md). It does **not** contain a complete firmware build kit, a flashable download, or installation instructions. The 20 previously withheld runtime files are now included under that scope; bootstrap and firmware-container tooling remain withheld. This is a partial source release, not a claim that all V74 build inputs are publicly available.
 
 No firmware, game WAD, OTP/keys, toolchain, screenshot or game artwork is distributed. The private research repository remains separate.
 
 ## Source layout
 
 - `src/engine`: V74 engine working-source snapshot, derived from DoomGeneric. Unused desktop backends and their old Makefile are omitted.
-- `src/native`: retained GPL-noticed native runtime, display and simulator components. These are research components; several refer to unpublished dependencies.
+- `src/native`: retained native runtime, display, input, timing and simulator components. These are research components; several refer to unpublished dependencies.
 - `provenance/imports.json`: exact source identities, hashes and withheld-file inventory.
 - [Build status](docs/BUILD.md), [licensing](docs/LICENSING.md), [controls](docs/CONTROLS.md), [hardware risks](docs/HARDWARE.md), and [validation](docs/VALIDATION.md).
 
@@ -26,9 +26,10 @@ With Python 3.9+ and an already installed C compiler:
 ```sh
 python3 tools/check_sources.py
 python3 tools/check_frame_queue.py
+python3 tools/check_timing.py
 ```
 
-These run offline and do not install dependencies or access hardware. The host regression checks queue ownership/refusal behavior with UBSan. A private native rebuild now matches V74's loaded bytes exactly; see [recovery findings](docs/RECOVERY-PROGRESS.md). The public snapshot remains incomplete, and no full-Doom simulator run, firmware-package build or hardware test is claimed.
+These run offline and do not install dependencies or access hardware. The host regressions check queue ownership/refusal and the retained timing diagnostics with UBSan. A private native rebuild now matches V74's loaded bytes exactly; see [recovery findings](docs/RECOVERY-PROGRESS.md). The public snapshot remains incomplete, and no full-Doom simulator run, firmware-package build or hardware test is claimed.
 
 ## Hardware warning
 
@@ -36,6 +37,6 @@ These run offline and do not install dependencies or access hardware. The host r
 
 ## License
 
-Published engine and runtime code is GPL licensed, commonly **GPL-2.0-or-later** as specified by individual notices. Original copyright and license notices are retained; see [LICENSE](LICENSE) and [provenance details](docs/LICENSING.md). No rights to vendor firmware or Doom game data are granted.
+Published engine and runtime code is GPL licensed, commonly **GPL-2.0-or-later** as specified by individual notices and [LICENSE-SCOPE.md](LICENSE-SCOPE.md). Original copyright and license notices are retained; see [LICENSE](LICENSE) and [provenance details](docs/LICENSING.md). No rights to vendor firmware or Doom game data are granted.
 
 This is an independent project with no claimed endorsement by Teenage Engineering or id Software.

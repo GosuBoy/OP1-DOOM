@@ -4,13 +4,12 @@ The engine's original preserved upstream checkout pins [DoomGeneric revision dcb
 
 The private staging comparison examined 384 engine-file copies: 362 match that upstream revision exactly; 22 copies differ across 18 filenames. Those differences include two historical engine snapshots; this public collection imports the V74 candidate snapshot and selected native overrides only. Its exact per-file identities are recorded in provenance/imports.json. The immediate research source commit is 179d9823be6dadc796574099aad6c8789f347e23.
 
-Files retain their id Software, Simon Howard and other original notices. Headerless upstream files are traced to the pinned GPL repository; native runtime files are included only when they retain an explicit GPL notice. Files without an established notice/provenance basis are withheld, rather than assigned new license terms. The withheld-file inventory describes the resulting gaps honestly. Existing file-specific notices control; the GPL text is not a license for unrelated vendor assets.
+Files retain their id Software, Simon Howard and other original notices. Headerless upstream files are traced to the pinned GPL repository; native runtime files retain their notices or are covered for their project-original portions by the owner-approved [GPL-2.0-or-later scope](../LICENSE-SCOPE.md). The 20 newly included files retain exact source bytes and import hashes. No third-party rights are replaced. The withheld-file inventory describes the remaining exclusions. Existing file-specific notices control; the GPL text is not a license for unrelated vendor assets.
 
 ## Deliberate exclusions
 
 - Proprietary firmware, OTP, keys, WADs, compiled target outputs and toolchains.
 - Bootstrap and firmware-container recipes with unresolved provenance/combined-output questions.
-- Port-specific files without explicit retained license notices, pending the rights holder's license decision.
 - Embedded icon.c artwork. Its bytes match upstream, which establishes its origin but does not independently establish artwork redistribution rights.
 - Later audio/emulator investigations and private delivery metadata.
 

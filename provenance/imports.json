@@ -1106,6 +1106,24 @@
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
     },
     {
+      "path": "src/native/column_cached.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/column_cached.c",
+      "sha256": "d604f6d2627743c905eb335da38905470b171d16d90fb651e7e331d741271f96",
+      "license_basis": "Retained explicit GPL version 2 or later notice; derived from Doom R_DrawColumn with id Software and Simon Howard notices"
+    },
+    {
+      "path": "src/native/control_events.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.c",
+      "sha256": "d5fd6bff4acf3f744e2c55ba09c2a3bb6db6dd6ba21b165ee97e9500c61c32a9",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/control_events.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.h",
+      "sha256": "b1f8bed6785065c7de269f703ec12ecdcc68b95f0d4222fef53d7844fa173e13",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
       "path": "src/native/demo_adapters.c",
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/demo_adapters.c",
       "sha256": "ca1bcd4f22c5addcb96b6256ad6a4cc07be904e15aa1e1df632f1811a01c64c1",
@@ -1128,6 +1146,12 @@
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/display_primitives.S",
       "sha256": "967e10f38b1dc9330b5b97824ffae7804652dd537f3e41f2ac74e8e988bdaa12",
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/episode1_bindings.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/episode1_bindings.c",
+      "sha256": "22df27dcdbc73f69e4ca187b7b5d6bb03a9a7b6f62004fcd95154e4fac5fd6b7",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
     },
     {
       "path": "src/native/frame_queue.c",
@@ -1166,6 +1190,24 @@
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
     },
     {
+      "path": "src/native/input_bridge.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_bridge.S",
+      "sha256": "399e3760760dd82bfe9262ab0ac8efae48a3829f70250a3355d74502913e5ec5",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/input_state.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.c",
+      "sha256": "ecab6bad6164b4c49f84751fda1479cc8a868e49ecface348c2367a7663231a9",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/input_state.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.h",
+      "sha256": "be0dda0e78d400698151152eca11c60d38c6311457c06296acb4b1c3dac66aa0",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
       "path": "src/native/m_menu.c",
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/m_menu.c",
       "sha256": "ba2af9cc389ae5808d71de17646191476fd8200ae110dd34a4fbeaf47baff855",
@@ -1178,10 +1220,28 @@
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
     },
     {
+      "path": "src/native/native_diagnostics.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_diagnostics.h",
+      "sha256": "0ec58a5eb4f4d34df7de59aab5aec75a1996869b08e3ee9c9a13200fa77640b7",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/native_input.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_input.c",
+      "sha256": "86cd3580d29a7acf4518add3e1ce4139583f3e65750b6a8e623793bdc35b53e5",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
       "path": "src/native/native_title.c",
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_title.c",
       "sha256": "036a287cfa6981c92c45c980b24fd739d10f2d9e88920c23ac47e45657140e6f",
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/session_limits.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/session_limits.h",
+      "sha256": "79881d4ddafbc217bda9f2d346dca2a0b945b2b79fc10a3f3ed4eee933119007",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
     },
     {
       "path": "src/native/sim_display_primitives.S",
@@ -1196,6 +1256,12 @@
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
     },
     {
+      "path": "src/native/sim_start.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_start.S",
+      "sha256": "f29a61da2bbdc5e2e54a118eb59c977e25e5c43706c84e5dbb053a31847ef79e",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
       "path": "src/native/sim_stubs.c",
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_stubs.c",
       "sha256": "ef9a27f976796bbb42035ead443762a19d9ad4cec8a0094e894d9c585bc8b438",
@@ -1206,6 +1272,66 @@
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/stage7_stubs.c",
       "sha256": "8691403da883a02a721b1c153c1f805c49307009be11cf537f747120dd43e92e",
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/target_entry.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/target_entry.S",
+      "sha256": "46577bb16499eae70eb2e477faf5d6906411af2e6d22f1a71cded663ba42aa14",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/test_probe.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe.c",
+      "sha256": "ba42665c145ffd6448ad13f7fbbe6c77cac4bdd533192fc9a565792080347c51",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/test_probe_target.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe_target.c",
+      "sha256": "65cb13b39df24be5a16e5ad238ab1d587f971e425c076c76a74488b838e5d871",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/test_screen_target.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_screen_target.c",
+      "sha256": "598868fa1b3a94b28be2c36213907e11f8576a03f4c0a6de892a5fbbca821cd8",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_probe.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.c",
+      "sha256": "b4861630f0876a7886bf76b084d869a523fd571b0cbae2604e488f7f6944edf9",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_probe.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.h",
+      "sha256": "4a6ac97440ab391532739e89233a04fdfcd99cf003ca11622968dc876229dadc",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_screen.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.c",
+      "sha256": "912586a182e77aeefc5f4090241cc864f84ee203d7a3e54c169c9a9cce913090",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_screen.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.h",
+      "sha256": "e94782dfff4eb133c32df3c160d01de4681a2274d55c82947942d3c9b773cc46",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_stats.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.c",
+      "sha256": "804eb97ab05e18e82b5c38dae75142bb1a5e28a8d5661fe370d224b2dad5b09e",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
+    },
+    {
+      "path": "src/native/timing_stats.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.h",
+      "sha256": "8b155d4c0ee664622e287b2fdedd5349bd77769e70568746f14c5f670449ca83",
+      "license_basis": "Project-original portions GPL-2.0-or-later by approved LICENSE-SCOPE.md; existing third-party rights and notices preserved"
     },
     {
       "path": "src/native/title_surface.c",
@@ -1230,12 +1356,6 @@
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/zero_adapters.c",
       "sha256": "a4b17a3a50a04cc3df4127ff0afe43c5d508b3a35f8152476a4ffc5d2bc2f446",
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
-    },
-    {
-      "path": "src/native/column_cached.c",
-      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/column_cached.c",
-      "sha256": "d604f6d2627743c905eb335da38905470b171d16d90fb651e7e331d741271f96",
-      "license_basis": "Retained explicit GPL version 2 or later notice; derived from Doom R_DrawColumn with id Software and Simon Howard notices"
     }
   ],
   "withheld_runtime_files": [
@@ -1274,86 +1394,6 @@
     {
       "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_xlib.c",
       "reason": "unused non-OP1 backend/build recipe"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/episode1_bindings.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_bridge.S",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_diagnostics.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_input.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/session_limits.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_start.S",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/target_entry.S",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe_target.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_screen_target.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.h",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
     }
   ],
   "scope": "Audited source subset; incomplete firmware build source; no executable distributed"

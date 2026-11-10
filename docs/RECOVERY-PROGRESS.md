@@ -69,3 +69,7 @@ Using those existing pinned tools, with all output confined to the recovery work
 - Trace output is produced, and the deliberate integrity-check mismatch is rejected.
 
 The [toolchain receipt](../provenance/recovered-existing-toolchain.json) records hashes and bounded results. This resolves the CALL failure and qualifies this selected toolchain for these pure checks. It does not establish full Doom execution, peripheral timing, firmware behavior or physical safety. No vendor firmware or WAD was executed, no device was accessed, and no tool binaries or patches are distributed in this repository.
+
+## Runtime license scope approved and published
+
+On 2026-11-10 the owner approved GPL-2.0-or-later for the project-original portions of the 20 runtime files, preserving third-party rights and notices. These files are now included byte-for-byte with an adjacent [license scope declaration](../LICENSE-SCOPE.md); main contains 226 imported source files. Earlier pending-license statements above record the investigation before this decision. The original prerelease tag remains unchanged. Bootstrap licensing/provenance, firmware packaging, combined-output rights and USB/power safety remain separate.
