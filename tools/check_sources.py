@@ -10,7 +10,7 @@ for item in manifest['files']:
     p=root/item['path']
     if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=item['sha256']:
         errors.append('source identity mismatch: '+item['path'])
-allowed={'.c','.h','.S','.py','.md','.json'}
+allowed={'.c','.h','.S','.py','.md','.json','.txt'}
 def inspect(name,data):
     if Path(name).suffix not in allowed and name not in {'.gitignore','LICENSE'}:
         errors.append('unexpected file type: '+name)

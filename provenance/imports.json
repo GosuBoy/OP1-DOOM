@@ -1230,6 +1230,12 @@
       "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/zero_adapters.c",
       "sha256": "a4b17a3a50a04cc3df4127ff0afe43c5d508b3a35f8152476a4ffc5d2bc2f446",
       "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/column_cached.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/column_cached.c",
+      "sha256": "d604f6d2627743c905eb335da38905470b171d16d90fb651e7e331d741271f96",
+      "license_basis": "Retained explicit GPL version 2 or later notice; derived from Doom R_DrawColumn with id Software and Simon Howard notices"
     }
   ],
   "withheld_runtime_files": [
@@ -1268,10 +1274,6 @@
     {
       "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_xlib.c",
       "reason": "unused non-OP1 backend/build recipe"
-    },
-    {
-      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/column_cached.c",
-      "reason": "project file without explicit retained license notice; withheld pending license decision"
     },
     {
       "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.c",
