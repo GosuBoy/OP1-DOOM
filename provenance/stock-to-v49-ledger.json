@@ -1,0 +1,338 @@
+{
+  "scope": "Exact pinned stock plaintext loader to historical V49; no raw firmware bytes included, no writer or device action",
+  "stock_plaintext_sha256": "1e806672dc440d495987c6b1f33b300876e6a3bb1d58254aac5fe60c960e906a",
+  "v49_loader_sha256": "5a72c703a0c77a8992812d786046f0e8ce7a92cc182ebcdf3f6c4499752b34e4",
+  "stock_records": 800,
+  "v49_records": 801,
+  "stock_tail_bytes": 256,
+  "v49_tail_bytes": 256,
+  "tail_identical": true,
+  "structural_changes": [
+    {
+      "kind": "insert",
+      "stock_records": [
+        799,
+        799
+      ],
+      "v49_records": [
+        799,
+        800
+      ],
+      "stock_descriptions": [],
+      "v49_descriptions": [
+        {
+          "code": 2908626950,
+          "address": 16773120,
+          "count": 728,
+          "arg": 0
+        }
+      ]
+    }
+  ],
+  "changed_matching_records": [
+    {
+      "stock_record": 0,
+      "v49_record": 0,
+      "address": "0xffa00000",
+      "record_bytes": 0,
+      "stock_arg": 2171608,
+      "v49_arg": 2172352,
+      "stock_payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v49_payload_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "differing_spans": []
+    },
+    {
+      "stock_record": 130,
+      "v49_record": 130,
+      "address": "0x18c1f44",
+      "record_bytes": 80,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "4fe6e99ec276a97f7d9e34a290f1bafa2738fb79f2a2de0d9f4b64cd17325249",
+      "v49_payload_sha256": "79d43729a5af038fab0e2e99d75074781d1f705bd0c3cca9502915d27cab0f76",
+      "differing_spans": [
+        {
+          "address": "0x18c1f54",
+          "bytes": 1,
+          "preimage_sha256": "ca358758f6d27e6cf45272937977a748fd88391db679ceda7dc7bf1f005ee879",
+          "postimage_sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+        },
+        {
+          "address": "0x18c1f58",
+          "bytes": 1,
+          "preimage_sha256": "ca358758f6d27e6cf45272937977a748fd88391db679ceda7dc7bf1f005ee879",
+          "postimage_sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+        }
+      ]
+    },
+    {
+      "stock_record": 132,
+      "v49_record": 132,
+      "address": "0x18c1fbc",
+      "record_bytes": 328,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "be2029bab6261c5e32808401a22bcaab6151da953af2c590278ecde4757fc5b6",
+      "v49_payload_sha256": "9d964f28a64a76174485b8fd5b91b84cffd3b2e9ee1aba432212122734d1c859",
+      "differing_spans": [
+        {
+          "address": "0x18c1fcc",
+          "bytes": 4,
+          "preimage_sha256": "d12b9a1cb12d3ab760e45de4bff19d698712ba07a2060a958e228f8456b405cd",
+          "postimage_sha256": "35baee424477852a26f347d88c90c27975f38d30fa724c52b601ceba939526a4"
+        },
+        {
+          "address": "0x18c1fd8",
+          "bytes": 1,
+          "preimage_sha256": "68aa2e2ee5dff96e3355e6c7ee373e3d6a4e17f75f9518d843709c0c9bc3e3d4",
+          "postimage_sha256": "452ba1ddef80246c48be7690193c76c1d61185906be9401014fe14f1be64b74f"
+        },
+        {
+          "address": "0x18c1fe0",
+          "bytes": 4,
+          "preimage_sha256": "fce82e3ce748f421db686fe5f1ec7791c858531d3b7837165f0d979ae846c6a9",
+          "postimage_sha256": "7ff2c8baedf07a756f653af4c4ec834943818c28d9e52064ee1f38c8d8ef3072"
+        },
+        {
+          "address": "0x18c1ffd",
+          "bytes": 1,
+          "preimage_sha256": "c3641f8544d7c02f3580b07c0f9887f0c6a27ff5ab1d4a3e29caf197cfc299ae",
+          "postimage_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd"
+        },
+        {
+          "address": "0x18c20cc",
+          "bytes": 2,
+          "preimage_sha256": "47695615a7d41271f96a164b55c8caec91c3dd4fca9917fefad62fd30f281b21",
+          "postimage_sha256": "5c1f544864dc6e54eb86b69918e13657046326bf039d9acb2e7d4655e1d6a5a7"
+        }
+      ]
+    },
+    {
+      "stock_record": 146,
+      "v49_record": 146,
+      "address": "0x18c2718",
+      "record_bytes": 24,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "2c312ef69352c6a60f5804b56f1a5e1278a5413b59de6252a68981a44efed1e1",
+      "v49_payload_sha256": "84c5f09fd90b4505067f77efc12c99871c4bb95fb2379b8a9353e8104da60deb",
+      "differing_spans": [
+        {
+          "address": "0x18c2718",
+          "bytes": 4,
+          "preimage_sha256": "b40711a88c7039756fb8a73827eabe2c0fe5a0346ca7e0a104adc0fc764f528d",
+          "postimage_sha256": "10da04b51e81a156553b0aa91793ee0e6b78197cf4247afc80f239cb907f3a86"
+        }
+      ]
+    },
+    {
+      "stock_record": 304,
+      "v49_record": 304,
+      "address": "0x18e5b5c",
+      "record_bytes": 5264,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "1b5402cbef604ecbb29867a361dd21c0b8f824d0eaf17c2eb6c5adf5d6effe69",
+      "v49_payload_sha256": "94e5fedb60795acff9b059cc9dabcde618a7f3407e0211a531f328ecc8eeb5ea",
+      "differing_spans": [
+        {
+          "address": "0x18e6290",
+          "bytes": 2,
+          "preimage_sha256": "e4db938bf1ec7a0d2f856b4bb3e2f2a75975e1ca19a5f4f550e4e1ad6c4f16d8",
+          "postimage_sha256": "fb0cb7fdcb04f366c6c6d6ace09ea91405874e817a421144a25b7d720da1ee8c"
+        }
+      ]
+    },
+    {
+      "stock_record": 382,
+      "v49_record": 382,
+      "address": "0x18f5f40",
+      "record_bytes": 19528,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "dd24b42cd6197ffeddd443456f699e9f01a9ed3d685c1db77685711dc51c581d",
+      "v49_payload_sha256": "2ecd106b70fe0102b6d12ff0cb50d505daae27b8d1025b19be05e0ccc3d83d1f",
+      "differing_spans": [
+        {
+          "address": "0x18f738a",
+          "bytes": 1,
+          "preimage_sha256": "8c2574892063f995fdf756bce07f46c1a5193e54cd52837ed91e32008ccf41ac",
+          "postimage_sha256": "e632b7095b0bf32c260fa4c539e9fd7b852d0de454e9be26f24d0d6f91d069d3"
+        }
+      ]
+    },
+    {
+      "stock_record": 441,
+      "v49_record": 441,
+      "address": "0x190e4dc",
+      "record_bytes": 147536,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "78bb62f83ff8cab73bd8f37a1c561aee7652e920ba5fd1198bfa72323f7f7cf1",
+      "v49_payload_sha256": "c6025ee54ee0e3fdb13174cc6286f02c38be68cd71131fcc38cc3b1eaa78f790",
+      "differing_spans": [
+        {
+          "address": "0x1919aa8",
+          "bytes": 4,
+          "preimage_sha256": "02bd31f0f78a8d1a7e49641e0147ecea47cfe86da0a897d7d6517d998532049b",
+          "postimage_sha256": "19c90825ab1409e46c38485b11d26b7272ee9d570260fd27df350fa8658883a6"
+        }
+      ]
+    },
+    {
+      "stock_record": 798,
+      "v49_record": 798,
+      "address": "0xffa00000",
+      "record_bytes": 49076,
+      "stock_arg": 0,
+      "v49_arg": 0,
+      "stock_payload_sha256": "fd7432efaf5ab20f32928881daad1d932ea66af2d6771b89960055c9b6a1fdbe",
+      "v49_payload_sha256": "4733adf2d062c224a322454fe737333f80417626d568a8bb0113d05ef6f65eb3",
+      "differing_spans": [
+        {
+          "address": "0xffa05838",
+          "bytes": 2,
+          "preimage_sha256": "58ff4cfe631ce8e60f37a1d66273ba30be789543c917ddbf92be27c535329ba4",
+          "postimage_sha256": "f317b96951851711c8c27aed8db73e6b271ba85ec9fab4b0d1eafe422837c128"
+        },
+        {
+          "address": "0xffa0583c",
+          "bytes": 2,
+          "preimage_sha256": "23e66d4a6c7ce4e69cb6a9e4c9ba409f767d548aa090571b3df88374e360de0d",
+          "postimage_sha256": "ea5dbf9596d187e9500f23e9a680109475341cf4e81f7e043f7d97152c10772f"
+        }
+      ]
+    }
+  ],
+  "all_changed_spans_classified": true,
+  "first_arg_delta_verified": 744,
+  "all_other_original_header_fields_unchanged": true,
+  "evidence_files": [
+    {
+      "role": "V43 source patch",
+      "sha256": "c28dc1d7e4ff82e05057f231a3dc489903a2a82bf2fe20bf380d42e6d82c1386"
+    },
+    {
+      "role": "V37 preparation recipe",
+      "sha256": "4c39e3eaa2e549cea2c68810b9a091c60726a0c1a28ee81e9753b20e17b380c3"
+    },
+    {
+      "role": "Diagnostic label recipe",
+      "sha256": "ffd7ba0d4ccbb77dae4848e979d7fe56df37ce022af46988d43a867b890a5cd1"
+    }
+  ],
+  "changed_existing_payload_bytes": 29,
+  "v43_patch_identity_checks": [
+    {
+      "address": "0x18c2718",
+      "bytes": 4,
+      "role": "constructor dispatcher input: exactly queue initializer",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0x18c1f54",
+      "bytes": 8,
+      "role": "one indexed template and one application boot count",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0x18c1fcc",
+      "bytes": 32,
+      "role": "private template; retain separate SDK idle",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0x18c20cc",
+      "bytes": 8,
+      "role": "persistent boot pair; userdata is address018C20D0",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0x1919aa8",
+      "bytes": 4,
+      "role": "terminal no-render diagnostic diversion; JUMP.L",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0xffa05836",
+      "bytes": 8,
+      "role": "IRQ13 producer pointer; preserve following CALL(P1)",
+      "status": "Exact V43 source patch preimage and postimage"
+    },
+    {
+      "address": "0x19ab8b2",
+      "bytes": 4,
+      "role": "remove V37 observer hook; stock draw remains unreachable",
+      "status": "V37 observer hook restored to stock in V49"
+    }
+  ],
+  "unchanged_contract_windows": [
+    {
+      "address": "0x18c1f4c",
+      "bytes": 8,
+      "role": "nine-slot thread table",
+      "sha256": "67ee1b2c0b736c1c2b0c601912d25aaf4f5d71587def4fc2680243af3f89776a"
+    },
+    {
+      "address": "0x18c20ac",
+      "bytes": 32,
+      "role": "separate kernel idle template",
+      "sha256": "eaa527c62dfb405b5bde4b2f6d282fc45770adfc6213e5790e8d752d2247cee7"
+    },
+    {
+      "address": "0x18c1fc0",
+      "bytes": 12,
+      "role": "boot and timer hooks",
+      "sha256": "86c25da5beed9a87d8b9d72e14e7c48dab3e927639bec499b5075f58d50ea6b7"
+    },
+    {
+      "address": "0xff802c30",
+      "bytes": 308,
+      "role": "CPLB mode and table state",
+      "sha256": "3e5123951c204e6b98075ab14f8721c38c3eabe70e6619fd48118b0954017b98"
+    },
+    {
+      "address": "0x18e6298",
+      "bytes": 12,
+      "role": "heap1 table fields",
+      "sha256": "b63b8b2b329db9f122c07d43efe75b315d5f32742969cb7ffaaf847146478fcd"
+    }
+  ],
+  "ownership_regions": [
+    {
+      "name": "heap0",
+      "start": 256,
+      "end": 16773120
+    },
+    {
+      "name": "private_payload_record",
+      "start": 16773120,
+      "end": 16773848
+    },
+    {
+      "name": "surface0",
+      "start": 33554432,
+      "end": 33751040
+    },
+    {
+      "name": "surface1",
+      "start": 50331648,
+      "end": 50528256
+    },
+    {
+      "name": "heap1",
+      "start": 50593792,
+      "end": 67108272
+    }
+  ],
+  "region_disjointness_passed": true,
+  "heap0_reserved_bytes": 4092,
+  "payload_record_bytes": 728,
+  "remaining_heap0_reserve_bytes": 3364,
+  "limits": [
+    "Static ranges do not prove live allocator availability, total stack depth, peripheral progress or safety",
+    "Input is pinned plaintext loader; encrypted stock-to-plaintext derivation not independently reproduced",
+    "Intermediate V43-to-V49 package snapshots not all recovered; final state and V43 source changes verified",
+    "No loader/package written and no device accessed"
+  ]
+}

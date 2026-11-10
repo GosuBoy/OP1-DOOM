@@ -21,3 +21,7 @@ The owner reported that V49 needed USB disconnection for shutdown/recovery consi
 New offline comparison confirms seven stock application boot templates versus one in V49 and V74. The dedicated design intentionally omits stock application/USB/file workers while retaining kernel idle and the private thread. Missing application-level power/USB service is a plausible lead, not an established root cause. The next offline investigation is to trace stock switch/USB-present events to their consumers and dependencies. Enabling a worker without closing its queues, buffers, callbacks and memory ownership would not be a justified fix.
 
 No battery damage or charger-current conclusion is established by this evidence. No device, firmware installation or TE-BOOT change occurred. Existing [hardware limitations](HARDWARE.md) remain in force; there is no new installation recommendation.
+
+## Stock plaintext-to-V49 ledger completed
+
+The [new final-state ledger](STOCK-TO-V49-LEDGER.md) classifies all 29 changed existing payload bytes, verifies the retained V43 source patch against exact preimages/postimages, and checks static memory ownership. The encrypted stock-to-plaintext derivation, separate bootstrap grant, packaged-output rights and hardware safety remain open.
