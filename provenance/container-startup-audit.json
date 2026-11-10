@@ -1,0 +1,154 @@
+{
+  "scope": "Read-only private container and startup comparison; no package built or firmware executed",
+  "packages": {
+    "stock": {
+      "sha256": "c5315218f825f143b415ca554516541898abee843d3a236df0b54c04e1fb13a9",
+      "bytes": 13039128,
+      "members": 117,
+      "loader_sha256": "f79d299f6f9019c998013a4176223a6a1bc999a2d8c54451346861f6ea455c74"
+    },
+    "v49": {
+      "sha256": "4f7b07a9f1d52687779f4b838c797745b3d8671cee8f03c9b48df9b2880c4658",
+      "bytes": 12935967,
+      "members": 116,
+      "loader_sha256": "5a72c703a0c77a8992812d786046f0e8ce7a92cc182ebcdf3f6c4499752b34e4"
+    },
+    "v74": {
+      "sha256": "d242c706a2813de3fbb5a26fe1ed6bcf546bf1eba903f9f759f39510597cc941",
+      "bytes": 14424489,
+      "members": 116,
+      "loader_sha256": "c95d97c1d63860efd8eec7519e93d46d715efff2f39ccce61665ced03c009dbf"
+    }
+  },
+  "nonmain_comparisons": {
+    "stock_to_v74": {
+      "members_compared": 115,
+      "identical_payload_and_header": 115,
+      "differing_names": [],
+      "removed_names": [
+        "te-boot.ldr"
+      ],
+      "added_names": []
+    },
+    "v49_to_v74": {
+      "members_compared": 115,
+      "identical_payload_and_header": 115,
+      "differing_names": [],
+      "removed_names": [],
+      "added_names": []
+    }
+  },
+  "v49_to_v74": {
+    "records_before": 801,
+    "records_after": 822,
+    "added_copy_records": 21,
+    "tail_bytes": 256,
+    "tail_identical": true,
+    "nonfirst_existing_headers_identical": true,
+    "changed_payloads": [
+      {
+        "record": 132,
+        "changed_bytes": 2,
+        "differing_spans": [
+          {
+            "address": "0x18c1fdd",
+            "bytes": 2
+          }
+        ]
+      },
+      {
+        "record": 304,
+        "changed_bytes": 2,
+        "differing_spans": [
+          {
+            "address": "0x18e6291",
+            "bytes": 2
+          }
+        ]
+      },
+      {
+        "record": 798,
+        "changed_bytes": 3,
+        "differing_spans": [
+          {
+            "address": "0xffa05838",
+            "bytes": 2
+          },
+          {
+            "address": "0xffa0583c",
+            "bytes": 1
+          }
+        ]
+      },
+      {
+        "record": 799,
+        "changed_bytes": 52,
+        "differing_spans": [
+          {
+            "address": "0xfff236",
+            "bytes": 1
+          },
+          {
+            "address": "0xfff238",
+            "bytes": 3
+          },
+          {
+            "address": "0xfff23c",
+            "bytes": 8
+          },
+          {
+            "address": "0xfff245",
+            "bytes": 4
+          },
+          {
+            "address": "0xfff24a",
+            "bytes": 31
+          },
+          {
+            "address": "0xfff26a",
+            "bytes": 4
+          },
+          {
+            "address": "0xfff270",
+            "bytes": 1
+          }
+        ]
+      }
+    ]
+  },
+  "startup_fields": [
+    {
+      "field": "indexed_template_count",
+      "address": "0x18c1f54",
+      "values": {
+        "stock_plaintext": 7,
+        "v49": 1,
+        "v74": 1
+      }
+    },
+    {
+      "field": "application_boot_count",
+      "address": "0x18c1f58",
+      "values": {
+        "stock_plaintext": 7,
+        "v49": 1,
+        "v74": 1
+      }
+    },
+    {
+      "field": "first_template_stack_words",
+      "address": "0x18c1fdc",
+      "values": {
+        "stock_plaintext": 16384,
+        "v49": 16384,
+        "v74": 65536
+      }
+    }
+  ],
+  "existing_delta_allowlist_passed": true,
+  "changed_existing_payload_bytes": 59,
+  "new_copy_record_controls_and_size_passed": true,
+  "first_record_length_relation_passed": true,
+  "plaintext_loader_sha256": "1e806672dc440d495987c6b1f33b300876e6a3bb1d58254aac5fe60c960e906a",
+  "device_access": false
+}
