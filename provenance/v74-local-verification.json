@@ -1,0 +1,14 @@
+{
+  "filename": "op1_246_dedicated_doom_wide_statusbar_v74_EXPERIMENTAL.op1",
+  "bytes": 14424489,
+  "sha256": "d242c706a2813de3fbb5a26fe1ed6bcf546bf1eba903f9f759f39510597cc941",
+  "matches_historical_identity": true,
+  "crc32_valid": true,
+  "single_lzma_stream": true,
+  "tar_members": 116,
+  "main_loader_sha256": "c95d97c1d63860efd8eec7519e93d46d715efff2f39ccce61665ced03c009dbf",
+  "boot_named_members": [],
+  "extracted_files": false,
+  "firmware_installed": false,
+  "redistribution_cleared": false
+}

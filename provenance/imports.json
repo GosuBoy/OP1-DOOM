@@ -1,0 +1,1358 @@
+{
+  "source_commit": "179d9823be6dadc796574099aad6c8789f347e23",
+  "files": [
+    {
+      "path": "src/engine/am_map.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/am_map.c",
+      "sha256": "4d62b1c824f161f84efdc6fb7dfd3c02123a532f28f5296e0eef9c79778aee65",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/am_map.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/am_map.h",
+      "sha256": "1755affedbe06d36901c5d4754f931ddd214f28ac6625706eb56533925f4651d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/config.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/config.h",
+      "sha256": "3fcfe210bf24702f25de2e72ca2bd0c7bdb20b23cb412ffddad15fcacf2031d7",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_englsh.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_englsh.h",
+      "sha256": "a87f7d2d4693bdae0e0f8bf81918fe19bd78742d28ee4bfc3c7a92759d73c06a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_event.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_event.c",
+      "sha256": "f06d11316e62d26f8d4687103d77e88ec92e2273b5dedcd798136496ba8e9004",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_event.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_event.h",
+      "sha256": "e42a92f9e8bbd27c3f810acc5d50929d9329019240b41af13fc886815ead2a64",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_items.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_items.c",
+      "sha256": "57796c266d224c2cab69f9c8c9fae564d4161f04e2f859a80062675ada61e23b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_items.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_items.h",
+      "sha256": "f251ed3bcdd5b15250db5c38c6b52996bc684c88802ff87dbfe5b4859d59dab4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_iwad.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_iwad.c",
+      "sha256": "9723efdc547f3739e26b72232b80e36c37c9f685795c3990cb696a7103daf88a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_iwad.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_iwad.h",
+      "sha256": "b9fd8c8bd82d8e2f6952ee7645e221c42ba7c3f1793939a7596067ec1bc68396",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_loop.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_loop.c",
+      "sha256": "e93f84c7794f2fce9da0c4c96173fa2eec9d48e6a0c31daade9c48a1d2af35ea",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_loop.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_loop.h",
+      "sha256": "27cc9f6611fe6273b39e3e780d44f9f25bc61937e5f1f62711229568af311a8c",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_main.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_main.c",
+      "sha256": "c3f60692910cc4c3136f339edef1cde4d46669d4d5adce97446e2ff7d3fdc6b8",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_main.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_main.h",
+      "sha256": "93d04e541a63430da34396b546b4561867b60fe72a21ee7cf382159c8dbac421",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_mode.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_mode.c",
+      "sha256": "4db5e599badeb809b8f1bcdf0ce483dcd704cdbc1abdb3fbdba447cda150ea0d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_mode.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_mode.h",
+      "sha256": "809224d5ab46b4a29be0ea2d82f3cbbd9eea6e476a38441f3aa42bb0f99b08e4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_net.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_net.c",
+      "sha256": "dd6cbd6e3ebc379bcdfca2e02e2bf0a5a3bfe8c1945a920f8c8dacac9fc45890",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_player.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_player.h",
+      "sha256": "349de25b7ba47532507556f8ac4f2f218891f36b1c4647defaee03ae4b85d6fc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_textur.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_textur.h",
+      "sha256": "7500fb01de1fe637e05110a0aa189425979bddf0de327a31527434418f4d3efc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_think.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_think.h",
+      "sha256": "a500e07ef47fd0e1ab24d34f5df24e7a59c7ad1b657f67c9c977704b72cef08b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/d_ticcmd.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/d_ticcmd.h",
+      "sha256": "96bebe68c88b81a8fb35bfb6e8d74870d792107e1ceabc1c69069ed257aff851",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/deh_main.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/deh_main.h",
+      "sha256": "de68692339596b59f8903e41ce88842d79bef3c92d3995f4d68f9056f90ecb9e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/deh_misc.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/deh_misc.h",
+      "sha256": "cf07e29421704d2491f53cc3e055e367c6aaecce2baa9759e9bcace21e657cb2",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/deh_str.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/deh_str.h",
+      "sha256": "2387262e1fd9751575be33659145dfc900d7525587e267b3dab5c63c7daa5ac0",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doom.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doom.h",
+      "sha256": "09f5e81390611c078348327489b08e4eda85306c83dc2c2a764406b2e0abf51d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomdata.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomdata.h",
+      "sha256": "a258ffd069833b0c81a132c4db74fd9121e1815267b309c2b3b5dc501971a3eb",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomdef.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomdef.c",
+      "sha256": "56e23ec1235d7478f64577ac349f9fad92a9fe6f77a0197630d6319f0838b02a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomdef.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomdef.h",
+      "sha256": "87eaafe4d3366fe89924c8649c45b91fe89b6780a17f655e90c8a1d77b318a77",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomfeatures.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomfeatures.h",
+      "sha256": "01fd54d8060c650933f1d65c90fbd04355637b9ec66108e65cda0ef1bba4b929",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomgeneric.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric.c",
+      "sha256": "5d1cc5ea8b4daf4bb470f681b365f393d11fe077ecb36ea3230865a757472656",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomgeneric.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric.h",
+      "sha256": "d24861dd7aa75d283226724f710ae4226839898bc61b986a0602df7df19df148",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomkeys.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomkeys.h",
+      "sha256": "9bacfdc85b2003913b8a571c0762226d07e5e303dbdaa6c64887a194a4279ba2",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomstat.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomstat.c",
+      "sha256": "fa9332d64d0278e8eaa1481e18175b5b06d012af9e3f56a72edf823401a473bc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomstat.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomstat.h",
+      "sha256": "a4c71dc810f4ac7b23a881a03566b4427356f7d59de37d5ddd38b43069c1f1a5",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/doomtype.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomtype.h",
+      "sha256": "35034a1a6a077a561ad8f60f67e9bcf8be0e939f36f44abb54e41b1221ed31ee",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/dstrings.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/dstrings.c",
+      "sha256": "9804ceaafe342d4a12d0ce52a1f882f84e1d8d62482bd8edf914bec8f4d6fb84",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/dstrings.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/dstrings.h",
+      "sha256": "81e8527b9264b1271fe7ab0737a359d24fb1f4052994ac3aea9a98c7a3a651c7",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/dummy.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/dummy.c",
+      "sha256": "fe10b9869685fd586d5641883405531b3694d4ff6f9e6b800c4d3a43710d65fd",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/f_finale.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/f_finale.c",
+      "sha256": "4db1f44606acdb97cb38834363b2cf6ac5bfe644e7a9a71ad67f3818a3724042",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/f_finale.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/f_finale.h",
+      "sha256": "8b1d4777e91f0f8be1c97475698701e0f17013d00c394cb6a2cfbb87f46b9d62",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/f_wipe.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/f_wipe.c",
+      "sha256": "60969b7843a0eb0483f549abff2c4fcd20ccfeafc5ace8817836d1e895819fa0",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/f_wipe.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/f_wipe.h",
+      "sha256": "e3e769803e2998aab83a6f98634654ce76f9c51aa6c7c551c4489deac5a2e041",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/g_game.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/g_game.c",
+      "sha256": "192448937b24aebef37652a79b2d4ed46aa2b8c9de1ee6b0632c1e4f647a5abb",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/g_game.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/g_game.h",
+      "sha256": "b808b2ca10e734e22bef8591b0124d9ff4a4ef808ac12a6170189b4ef96c0c90",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/gusconf.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/gusconf.c",
+      "sha256": "4efa93fb1d49a1c8d8c4f0cefee09066da9cd59159f868fd9658a064898d516a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/gusconf.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/gusconf.h",
+      "sha256": "beec7b7cceabc46ecf932ed584c85cbb68acb6dff7776f4df8586b35054afa58",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/hu_lib.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/hu_lib.c",
+      "sha256": "76eaf69be425b62c02744db1b010c2f1671db2cd1b74f7d1d6587cbc1f8f6291",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/hu_lib.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/hu_lib.h",
+      "sha256": "6ce06bc30e0275d8c77ebbf1b70d581f93594ead3efd2a0d84dcc8d00394fea5",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/hu_stuff.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/hu_stuff.c",
+      "sha256": "726c8fa2a23a4da67b87b312156d9b04472c9cf966f210031e6924d46865ce0f",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/hu_stuff.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/hu_stuff.h",
+      "sha256": "c3c8c0f0d42a95bf451ad286439aefbb04e149660930aedb7efe9fcfb6e2dbe0",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_allegromusic.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_allegromusic.c",
+      "sha256": "ba9b072bb1162f3435ca9b2ff8420fe03ce2b61adfbc756dfee302d7316d1792",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_allegrosound.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_allegrosound.c",
+      "sha256": "8570343be57fba9ff76b7eb6ce977cb96058fc861f450c8418443353ee14d81b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_cdmus.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_cdmus.c",
+      "sha256": "6573cbb850e268671c21f9278fd0f3a5bb3c4bd31801e2231c649a334145902a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_cdmus.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_cdmus.h",
+      "sha256": "e0024e794a5e507c476b011a23770726c940e211c7c9603452d3bd156db47c30",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_endoom.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_endoom.c",
+      "sha256": "4fd3d8b7b8959512b6742cb922b3a637f137ab64dd00c1811f146a18db80b590",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_endoom.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_endoom.h",
+      "sha256": "54834211849d212b3aec65b03ff8a8906f0b1f1985d334188eaad8990af73e4c",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_input.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_input.c",
+      "sha256": "c7cfc91d1edaefd66395f9293fbef5050ea2ad367fd9acc2afd4b4cbf213daa4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_joystick.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_joystick.c",
+      "sha256": "01f52e0e986dfe3114e97a388f977a01d74e9bd16a454a57df58d6ecaeb7d519",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_joystick.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_joystick.h",
+      "sha256": "1980f8481b417416d048ad03968058f0ff0cce9700e10f1bafd8e965190a80d1",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_scale.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_scale.c",
+      "sha256": "f9dad27d7cae5ca6a63c87570c359d40e35002fb499c7d8a2e58ebb291a93e92",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_scale.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_scale.h",
+      "sha256": "23d43b89fea35c33ee14959643441dafe2ba478b66f0d9c25af170abf27d203f",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_sdlmusic.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_sdlmusic.c",
+      "sha256": "6847ea7539ef7b7d6cf7a7e58bdb252b97e725e41f92db6a50ce5b858868c96d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_sdlsound.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_sdlsound.c",
+      "sha256": "56a39689d5803708e8eaaec1481bb0bcec3279de5493116530033fca76bcb8b6",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_sound.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_sound.c",
+      "sha256": "715918bc37b927c9426f37c3565d58d0f9f7bb517791b88b673820cc768572ee",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_sound.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_sound.h",
+      "sha256": "b0a63a0fb482e767aa7812f5f7db3c66883feda084a30ec59abda10abc314a5e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_swap.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_swap.h",
+      "sha256": "b8e773577839ccb51c0c9bf7232e9c174ec32e44c9573b1b38cc3337e2d0ad45",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_system.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_system.c",
+      "sha256": "b18caaed23b9441f9887abae21422042003565f723988243ae7871edcf780ea8",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_system.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_system.h",
+      "sha256": "19084cfd6ffb7b69516cb62916c2a510ace67545f17dd6fb673be848f1d81d9e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_timer.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_timer.c",
+      "sha256": "cf59e0db8d0ce9cefeb22643141a8983cea3668f16bae2bf009c58979c3b5cb3",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_timer.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_timer.h",
+      "sha256": "39449001def04dbd4984be2ea42ed48e3a4ba1e0b10fdb43e43d9e18b23f5081",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_video.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_video.c",
+      "sha256": "8b9e1998f344f8af78d904a3e806817733fd0defcf6d54368b03f5c1f61a2eed",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/i_video.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/i_video.h",
+      "sha256": "abd900c49c36f87c3b011efa63500a52b3627782aa419107e87f2d11320d8fbc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/info.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/info.c",
+      "sha256": "43ed8b32ecd053e26b485a5443d8c11d4cf302377d5f62655d302964c90e2a0f",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/info.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/info.h",
+      "sha256": "7ddb348b1f09c500446fb7e8c1e6dd3eec715f3a01e1fdee211ad3b0ec9516df",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_argv.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_argv.c",
+      "sha256": "7fb6bde5640bcce06a92cfc96bfab58c39a172d55823c7f7fae62864996f8da6",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_argv.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_argv.h",
+      "sha256": "f6e755d39f0edb6654625e11f328ae1cfa66f0898da57202eeebeda49bf8dd85",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_bbox.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_bbox.c",
+      "sha256": "89b9abb5d7b112e1d49052a7936020503d884e7368729dbf079439d2efd2b900",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_bbox.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_bbox.h",
+      "sha256": "6290e396400b65a87c9c14eddb04c455c64381f116b9784870e5162cfb6d1857",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_cheat.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_cheat.c",
+      "sha256": "4d68a9eaa79bfdf4efad2f92246aaff7d067c3b5aa4aecc06902ea98ae76cdb7",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_cheat.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_cheat.h",
+      "sha256": "30ae07736b39f44b57edbcd9c4b861dcd6d81cede100aa7c3c6c85648af05ab2",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_config.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_config.c",
+      "sha256": "8276086f741d9c0c7f942c13bb545db341da52663cba08f595dbaeb960075433",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_config.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_config.h",
+      "sha256": "002679e7cd0e9a5aeeede9e57fa9052c8f18e34e8273bd47b34ef878c95714eb",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_controls.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_controls.c",
+      "sha256": "8b85c59a9af0cf2d698e6ed1fa0796e4759ca94fa7bae94c853b775cb9584718",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_controls.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_controls.h",
+      "sha256": "089b36825ad0f49957990f52fc10fd3c4b2404b7822bf3051b0a69b297ea8f7b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_fixed.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_fixed.c",
+      "sha256": "d5e13eb7d84416055a5981b8c9bf6495821795626114de40d9b1d4ca36bdc544",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_fixed.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_fixed.h",
+      "sha256": "0928f51e77d3d9dadcd8593821e5c3788a82144e3d74ad40414e87d82cd28c70",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_menu.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_menu.c",
+      "sha256": "ba2af9cc389ae5808d71de17646191476fd8200ae110dd34a4fbeaf47baff855",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_menu.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_menu.h",
+      "sha256": "bd8d8c0c6d3f759a5bada0b2a8210c4242b5a46fa0f85439eefa0c425ae31d23",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_misc.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_misc.c",
+      "sha256": "fbd40d5fb82ed3a315841d7bb4a2fea60971993597fb9908ff7c69d576028cb3",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_misc.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_misc.h",
+      "sha256": "5e35de7b90304c2ef4a88dd4f4f672addb9062ced9b6f98566d253177b8cab7c",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_random.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_random.c",
+      "sha256": "5be0ddef0e84bd3e4789e4d6311d979263b8da43a32f30403b9e6d08bf070fea",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/m_random.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/m_random.h",
+      "sha256": "f9d5a08dc6dcab13c22c8bb20a65e70ff42b35623dee81c0d2f363b595c2b612",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/memio.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/memio.c",
+      "sha256": "29619ef12147ce4f66ac54ef05c59c7e2c0e792d851f9d1921837c1dc7a165b1",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/memio.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/memio.h",
+      "sha256": "3dff35a40b042f831d0b2505b6238c8ff96663ea527aae3614d23ee1870fcc92",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/mus2mid.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/mus2mid.c",
+      "sha256": "47f7f8ffb9785774b19a24d034222a1fcbc6a90a40e0ed75dd3d80efd6f01b3b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/mus2mid.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/mus2mid.h",
+      "sha256": "5c0543485225e396f77e1707b033d4e679e950b1af1f3ad8f05d4bc274ee75ac",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_client.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_client.h",
+      "sha256": "76d382f79cd596e99cedfc1e8ea50d472aa3ed03cc5ac734ef3e5effc9a8dfff",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_dedicated.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_dedicated.h",
+      "sha256": "d842253025919a48f3c314f354450dd64ef31448912e6ed86ab2a75f33add287",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_defs.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_defs.h",
+      "sha256": "a35b30a1e248fc28f190113794f9c11c3d991a196ad11a31cd2dd9717160247a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_gui.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_gui.h",
+      "sha256": "da25eac4d1e2e6e18d05039f3830dda814e81cbad4bf1af4f8fd9c1d5e7297c3",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_io.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_io.h",
+      "sha256": "50d07149d4603b20b4477443e88adac8ba72303a190253d7d1fede4901db64bf",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_loop.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_loop.h",
+      "sha256": "6b2517390fda6c5a71b4db7cb8de885de685960d8d469e750712712434c0a998",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_packet.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_packet.h",
+      "sha256": "3386dce3169cb8a5ad37cccc010b64bf8a66eb36d847eb55d38c5554af10ffec",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_query.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_query.h",
+      "sha256": "2c1a1be246d9b560683b2ef56719b6b6b3958f62819a033bb3a35dedf724d60f",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_sdl.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_sdl.h",
+      "sha256": "73c88c6ec8ffad3a30583a48e1ace2ff186d4b5bb08061776c0fd01ec81ca51a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/net_server.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/net_server.h",
+      "sha256": "33437f02e5ce1b5cb2cc3fef790512f75b3afb1b14a90bf92378738c54af3cef",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_ceilng.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_ceilng.c",
+      "sha256": "20c58a9336c44f61d42f5b57bcab08f866889776083365850b34cc24a90f7017",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_doors.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_doors.c",
+      "sha256": "429bc5c7446caf4c95bfc0ac8a6c4f9892f88e9f4615fa02103f180a3dbb4178",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_enemy.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_enemy.c",
+      "sha256": "0043c0fa6107ddd001737e5da25d80c3d8c606769710d25a9fa064661cd6a7d3",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_floor.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_floor.c",
+      "sha256": "8bc68d1f1bea828aa72ef09213addebd946483e07886ca7e51457c95e87a4ec8",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_inter.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_inter.c",
+      "sha256": "2b8f7c1c38feefd296406438820ddb7fb13c09c2b3cb5a78ee030b7838f318ba",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_inter.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_inter.h",
+      "sha256": "83b5c68164306ca2b51675d9753e118ca854a2eadc56c2c9e5bdf4b9bdd83cb4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_lights.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_lights.c",
+      "sha256": "f0aebf42466c7995f7d84faac28bee1abd25cb83e76f668edb7a24b77311ed91",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_local.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_local.h",
+      "sha256": "f9c74f3ec882f4f759653fd96bdece15c83b4bbafa9baf47a3d86ae56d72ce1d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_map.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_map.c",
+      "sha256": "7e39f8a82c7a7b3de34845a28ac14ea8252509ed6af2ba280f1ba5d9d050c3e4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_maputl.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_maputl.c",
+      "sha256": "46b752624ae6686fffab2493c121f42eaa29816eb9bb487689ca6dd79a9373bc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_mobj.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_mobj.c",
+      "sha256": "c80a7063eb28fe1461a2b40845d48405fddfeea06fbaf2fd30cec88e689f070d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_mobj.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_mobj.h",
+      "sha256": "b54b339339a442f52412a6828b3749306c7841550849299f1f7d272ea323e168",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_plats.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_plats.c",
+      "sha256": "9fd0e8bfdeced8ef16a46694b3d3159cf110e499c3a4ef7ce68e9b8c12f7f2dc",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_pspr.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_pspr.c",
+      "sha256": "0d8b0f8a285d6533e81bc4fbaeeb18a6ab4bb305d547e81ae3853a462e5c9a1e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_pspr.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_pspr.h",
+      "sha256": "eee47f10c539d4c27b4b72bddfe5d83b2f317c14aa3d92eb5f9d1f993838ef6d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_saveg.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_saveg.c",
+      "sha256": "00618c964bea7664fef9f6b15e76f5b6d8766d7bebb4e0e979f0c2e4d8289cb5",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_saveg.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_saveg.h",
+      "sha256": "1fb50d63262bd64046c3553d4a2f3e5913878c792338d0ae77934ce59bcd1ee4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_setup.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_setup.c",
+      "sha256": "e6735d36ac04a58c77467776d96ab2fa0f8234fd00c522cf7484ed1510abe3c0",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_setup.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_setup.h",
+      "sha256": "b694051e5a6981cfd5800c4f6a64484553172c4587148b5354c5db082af46dc9",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_sight.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_sight.c",
+      "sha256": "9435efa2f2d2755c64155b3a490ead7587838bc32a8d081d45b64c3d45836271",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_spec.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_spec.c",
+      "sha256": "7b79a0d9972f0866ab0f1a0cdcbf377ca28851d1d2139e8651037808eaca276e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_spec.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_spec.h",
+      "sha256": "0215f64ac43834fd292bc32003f84e6b195f9fb0ab30d0b6cb7fad04fdf78109",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_switch.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_switch.c",
+      "sha256": "e7621d563f384a2e228644612a59702c7cd0f5c7ed88fa8f69a09098c062c236",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_telept.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_telept.c",
+      "sha256": "5d0eb86e2620c7f58d9ce106ba85ffe331e7fe0886f7e3955d7e321a452551ee",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_tick.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_tick.c",
+      "sha256": "824179765df5de9c3c93a420b606cad7aa48ccbd393bd4ce22f7fba9d9d54a19",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_tick.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_tick.h",
+      "sha256": "558c6879d9fb461ae1bf0f3e42f492fcdf4c7291e1795f9a283add8f78149567",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/p_user.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/p_user.c",
+      "sha256": "617d5ffdd3e67770415d26d370e24bde8afcf525d46510c63753de3c4e648fe2",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_bsp.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_bsp.c",
+      "sha256": "542751e7f1a3dd489abe7c3ceaf10a44f2f6a8f9c9c8b8100669e11e46663854",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_bsp.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_bsp.h",
+      "sha256": "fc1adc08614fd463384c8af565e82bca4dd396316d18302cd2baa3a9250a303f",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_data.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_data.c",
+      "sha256": "6806c473319095e24fd422a9156be7a19eea01c9f11ade5543782a25813c6e57",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_data.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_data.h",
+      "sha256": "ad200859ba61da621a82182bac9835dcc79f03e35d1ac91064c791676e1954c4",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_defs.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_defs.h",
+      "sha256": "ab5e553358945af3cc800eb05d5275eed5e678e7452b0d872b35d837c866d272",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_draw.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_draw.c",
+      "sha256": "b13e6ac18a4e911875601c15ccc02b7f1958712f13e5edf85cf0134372623bce",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_draw.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_draw.h",
+      "sha256": "9e8d667a90785e93b44547a94cd7c0f317e6fce199ab3d551f9346d6ef9465ee",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_local.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_local.h",
+      "sha256": "f0b87b3534d532b37b58386519de6b1d06328a580fe2af62f3de340aea95faeb",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_main.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_main.c",
+      "sha256": "7b0cf5c8783640e898108ef2d61d518a77d6d463f3717910c5dd18e261c5e903",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_main.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_main.h",
+      "sha256": "bfafe1bb3bfab0de24e14f463ed1162fdb28ce4a78f30d7a514e86ebfba359a6",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_plane.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_plane.c",
+      "sha256": "f55e7c234ed0b9820dd78589cf1685cd93119f6b5d7fa0f3b7b0246acf620768",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_plane.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_plane.h",
+      "sha256": "96081af1cf82fb89a126374b988d4dda3b093317f68fd69b76f576e1fb7f0373",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_segs.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_segs.c",
+      "sha256": "3e7c6ca4aa5a89548fa07de2e2d4862c087f8f9b97f53c3c83c8c5cacc566c63",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_segs.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_segs.h",
+      "sha256": "4ed0b751b8a0db73b01cdd0f6ec24dafef61c1b403de2be83094cf84e93c26ae",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_sky.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_sky.c",
+      "sha256": "5e7ea2b14c227ff7df297741e1be674e6a7865ce2eeab29c99ca12d1f3209ade",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_sky.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_sky.h",
+      "sha256": "cc53c08d1cc7ef042944a2f9d1924ebe27022b6ef172bee3e492d4cfd6e9240a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_state.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_state.h",
+      "sha256": "7ec040a913b05ec2c57ea33720fd600b702186701076faad5a4f135e65a562f6",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_things.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_things.c",
+      "sha256": "584277754102354ebd9e9a9dfc804e99466adafff394444a272dd241e9c64024",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/r_things.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/r_things.h",
+      "sha256": "664ba8ac66b160e321dce8a00a9d29eea4f39643f20f7711f6d439286e58ef60",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/s_sound.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/s_sound.c",
+      "sha256": "b11d6990c9308edf686a1c77bcca1eded7e3b5c0e233a918cb195861ca412101",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/s_sound.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/s_sound.h",
+      "sha256": "08c6e17c15a86927f86e9e68fd16b8b7c7b50f7a11abd313e9905703969cd4d1",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/sha1.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/sha1.c",
+      "sha256": "1920c8f3c669f86678c250d997d2159c6d562f41414891e34544c331e45aef22",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/sha1.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/sha1.h",
+      "sha256": "cda0dd9326ef9bcf5622076fab20e7e420c8dfe2d173a9859cc7cddefb78804b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/sounds.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/sounds.c",
+      "sha256": "28d358a0b76ec79208773ce4f9644ac2624a3950a518a3dad1decc8697d57d71",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/sounds.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/sounds.h",
+      "sha256": "8a360f02c2bcb17c0fae62bf41317f91b785cd63ef7c9f35bc0cbbf708e9aa7a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/st_lib.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/st_lib.c",
+      "sha256": "5cc6ef6816d4c16ed6b8e69c6839011e6898c221443fdf3d242e40087225ef80",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/st_lib.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/st_lib.h",
+      "sha256": "e0486603bc4154e87fb6c90cb4e669365f9c2e66a29e6c8296e8534d7e6223eb",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/st_stuff.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/st_stuff.c",
+      "sha256": "6a633afddf591ea05678ad201995e215d8d73f2d7a5fba4c038a41db53ea599d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/st_stuff.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/st_stuff.h",
+      "sha256": "7315a6067fe21c6b0b88be1c2eaca4f2e3623c7c24f4949bc30bcf0d71216772",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/statdump.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/statdump.c",
+      "sha256": "79ab0c3af80f05e01df1f80f37d4e3902387f9a69acf50118e763d3a46302761",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/statdump.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/statdump.h",
+      "sha256": "15b7f0891cc6848d4f17bbb75508cb0f7ab1eee56067e7a8e556d0d151bf849b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/tables.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/tables.c",
+      "sha256": "b20ffe17b3b32e6eb689199db0b314deea234091301f2c34dd82b3512b42c411",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/tables.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/tables.h",
+      "sha256": "f37583bc957fb456c4229fb85a6cb57fece3d24c069df622c8c9690dd66d094a",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/v_patch.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/v_patch.h",
+      "sha256": "e5300f9c7b7c762131569f0e9d906b30fabe1d90eec040ad5808561fe7ff7da0",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/v_video.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/v_video.c",
+      "sha256": "225d9ad753324d9bb1f084f506499b43ccc1d478b3711ad014b1328d2c1c9683",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/v_video.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/v_video.h",
+      "sha256": "42f84f7588c2c33d6b7ba4297dedc83927063a39fb40f391df7399c8b05ad0e5",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_checksum.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_checksum.c",
+      "sha256": "95a62cd90d615d67cb4326aea446e516df68a2384827236c55b01e483afdc571",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_checksum.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_checksum.h",
+      "sha256": "3ce1d2fcaf078d69d38bf7ae11e85c195463cf7da728c0546296eb3959b8b16c",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_file.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_file.c",
+      "sha256": "c1da5ccf0ac64cbb3023730ffb79569d424b443de2e6064d081b0dea9566b6e6",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_file.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_file.h",
+      "sha256": "3d2fcf565ae7ed32f2000bf3517ae55d6311a2e71069c80d3aa54d6c267e2c3c",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_file_stdc.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_file_stdc.c",
+      "sha256": "515a68720dc0f4b3d66be0fd7831e5dc15d57d2015a2ff60613d26d120332237",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_main.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_main.c",
+      "sha256": "fc9768762a4f5d3ee487f08ac483ad7088e443c9291fd7d4696b5177b7770b10",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_main.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_main.h",
+      "sha256": "9c8fc5515ef36b90e1ffd66a7934b94ac581ba7119f675037992f4ba9a6c4628",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_merge.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_merge.h",
+      "sha256": "e8c2ba4f7f357fe265acde37122e42d6d4fd73bf135efcdb5b9af3043409ac34",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_wad.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_wad.c",
+      "sha256": "5e3a6c495c5fc839f816ab6fb856272cd887ee4e9db67fbd6e0d339dd7847027",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/w_wad.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/w_wad.h",
+      "sha256": "5fb042b3db5b20a09f2dd70134e734c26dd42230925c1dc9068274885bcc7d5e",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/wi_stuff.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/wi_stuff.c",
+      "sha256": "5ec7361ec3d982edae14f14790e70d1d1d7cfab329bb2498f5b5b0179ee54b90",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/wi_stuff.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/wi_stuff.h",
+      "sha256": "82013f95fa7d59e1006f4f080d8bfedf69919571f57714415cf3413e049f273b",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/z_zone.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/z_zone.c",
+      "sha256": "37b296f9ad28decc44b5bca9d38c6ea81ddbd8ab977c1d06f03fc7360e316423",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/engine/z_zone.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/z_zone.h",
+      "sha256": "d392cb68bf7c05b5950db5556757fb9271e8be903674afa01ab4b6d9d767871d",
+      "license_basis": "pinned DoomGeneric upstream or modified file retaining GPL notice"
+    },
+    {
+      "path": "src/native/budget_stubs.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/budget_stubs.c",
+      "sha256": "9e14ef3827b2098f3c1efe0841346b7eb84263fc70977ed7912d57bb5d613c9c",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/demo_adapters.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/demo_adapters.c",
+      "sha256": "ca1bcd4f22c5addcb96b6256ad6a4cc07be904e15aa1e1df632f1811a01c64c1",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/display_backend.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/display_backend.c",
+      "sha256": "98678b41cb675dfa1592e9cce2711b79c4e12b22a875aa7267a17344ae1460f0",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/display_backend.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/display_backend.h",
+      "sha256": "1d745dbfc5a0eb74bf8325e7ea4476a960300cb03a33f918dd805d25420ac0c2",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/display_primitives.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/display_primitives.S",
+      "sha256": "967e10f38b1dc9330b5b97824ffae7804652dd537f3e41f2ac74e8e988bdaa12",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/frame_queue.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/frame_queue.c",
+      "sha256": "48ec45c0f9c03eac917013906fa13f055d36303817f0b321acbab003810bfed2",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/frame_queue.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/frame_queue.h",
+      "sha256": "2164cf47e856025ca785f638432caf0460e16e43c513bcca4a6a0d41bfa74153",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/g_game.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/g_game.c",
+      "sha256": "192448937b24aebef37652a79b2d4ed46aa2b8c9de1ee6b0632c1e4f647a5abb",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/i_input.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/i_input.c",
+      "sha256": "52dace9a0257791d29d6cd5b2f6a254d20493e8d8349721881091c116b0f64b9",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/i_system.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/i_system.c",
+      "sha256": "b18caaed23b9441f9887abae21422042003565f723988243ae7871edcf780ea8",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/i_video.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/i_video.c",
+      "sha256": "02a60fa2f2104dfeb5cc007f94f69d055169ff851810a5f360784da39fb2ce77",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/m_menu.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/m_menu.c",
+      "sha256": "ba2af9cc389ae5808d71de17646191476fd8200ae110dd34a4fbeaf47baff855",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/native_bridges.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_bridges.S",
+      "sha256": "62b94ea635b98e5f47abc089353d9d3a69484961a6f189440103fadb64253338",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/native_title.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_title.c",
+      "sha256": "036a287cfa6981c92c45c980b24fd739d10f2d9e88920c23ac47e45657140e6f",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/sim_display_primitives.S",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_display_primitives.S",
+      "sha256": "c1cbdbf674f03d2cdf76613122caba17f2f495ca1fddb1d53342f52d45905a5b",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/sim_libc.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_libc.c",
+      "sha256": "f319c0623d6aaa6d1456121354a8e0e827e82ee00f889a3b946bf16d0d79cb9d",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/sim_stubs.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_stubs.c",
+      "sha256": "ef9a27f976796bbb42035ead443762a19d9ad4cec8a0094e894d9c585bc8b438",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/stage7_stubs.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/stage7_stubs.c",
+      "sha256": "8691403da883a02a721b1c153c1f805c49307009be11cf537f747120dd43e92e",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/title_surface.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/title_surface.c",
+      "sha256": "92fe7ec721e9ed4c0071c7e5c41cdee19c113cd68fcdf57f1c0fe7c41b8e6606",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/title_surface.h",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/title_surface.h",
+      "sha256": "4f98d68fa73f17596f696e00f0d89323761681b75361a8197498f42520319ef1",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/wi_stuff.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/wi_stuff.c",
+      "sha256": "5ec7361ec3d982edae14f14790e70d1d1d7cfab329bb2498f5b5b0179ee54b90",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    },
+    {
+      "path": "src/native/zero_adapters.c",
+      "private_source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/zero_adapters.c",
+      "sha256": "a4b17a3a50a04cc3df4127ff0afe43c5d508b3a35f8152476a4ffc5d2bc2f446",
+      "license_basis": "retained GPL-2.0-or-later SPDX/header"
+    }
+  ],
+  "withheld_runtime_files": [
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/Makefile",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_allegro.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_emscripten.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_linuxvt.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_sdl.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_soso.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_sosox.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_win.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/doom-engine-transfer/extracted/doom-engine-offline/pool7-heap0-wad-v1/working-source/doomgeneric_xlib.c",
+      "reason": "unused non-OP1 backend/build recipe"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/column_cached.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/control_events.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/episode1_bindings.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_bridge.S",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/input_state.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_diagnostics.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/native_input.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/session_limits.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/sim_start.S",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/target_entry.S",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_probe_target.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/test_screen_target.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_probe.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_screen.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.c",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    },
+    {
+      "source_path": "historical/checkpoints/v74/v74-statusbar-work/candidate/native-episode1-v69/timing_stats.h",
+      "reason": "project file without explicit retained license notice; withheld pending license decision"
+    }
+  ],
+  "scope": "Audited source subset; incomplete firmware build source; no executable distributed"
+}
